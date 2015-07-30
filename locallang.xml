@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description></description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="form_firstname">Firstname</label>
+			<label index="form_surname">Surname</label>
+			<label index="form_email">E-Mail</label>
+			<label index="form_homepage">Website</label>
+			<label index="form_place">Place</label>
+			<label index="form_entry">Message</label>
+			<label index="form_entrycomment">Comment</label>
+			<label index="form_submit">Submit</label>
+			<label index="form_error">Please enter following fields:</label>
+			<label index="form_invalid_field">invalid</label>
+			<label index="form_blacklisted">blacklisted</label>
+			<label index="form_captcha_response">Captcha Answer</label>
+			<label index="list_from_place">from</label>
+			<label index="no_entries_headline">No entries</label>
+			<label index="no_entries_text">Nothing found in the guestbook.</label>
+			<label index="teaser_headline">Latest entries in guestbook</label>
+			<label index="teaser_more">read more</label>
+			<label index="pi_list_browseresults_prev">Previous</label>
+			<label index="pi_list_browseresults_page">Page</label>
+			<label index="pi_list_browseresults_next">Next</label>
+			<label index="pi_list_browseresults_displays">Displaying results ###SPAN_BEGIN###%s to %s&lt;/span&gt; out of ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="notification_mail_subject">New guestbook entry (###SERVER_NAME###)</label>
+			<label index="notification_mail_text">There is a new entry in your guestbook:
+
+Name: ###FIRSTNAME### ###SURNAME###
+E-Mail: ###EMAIL###
+Place: ###PLACE###
+Website: ###HOMEPAGE###
+Message: ###ENTRY###
+
+Click here to see the guestbook: ###URL###</label>
+			<label index="feedback_mail_subject">Guestbook entry (###SERVER_NAME###)</label>
+			<label index="feedback_mail_text">Hello ###FIRSTNAME### ###SURNAME###,
+
+thanks for your guestbook entry:
+
+Name: 
+E-Mail: ###EMAIL###
+Place: ###PLACE###
+Website: ###HOMEPAGE###
+Message: ###ENTRY###
+
+Click here to see the guestbook: ###URL###</label>
+		</languageKey>
+		<languageKey index="dk" type="array">
+			<label index="form_firstname">Fornavn</label>
+			<label index="form_surname">Efternavn</label>
+			<label index="form_email">Email</label>
+			<label index="form_homepage">Hjemmeside</label>
+			<label index="form_place">By</label>
+			<label index="form_entry">Kommentar</label>
+			<label index="form_entrycomment">Skriv din besked her</label>
+			<label index="form_submit">Send besked</label>
+			<label index="form_error">Udfyld venligst følgende felt(er):</label>
+			<label index="form_invalid_field">ugyldig</label>
+			<label index="list_from_place">fra</label>
+			<label index="no_entries_headline">Ingen beskeder</label>
+			<label index="no_entries_text">Fandt ingen beskeder i gæstebogen</label>
+			<label index="teaser_headline">Sidste indlæg i gæstebogen</label>
+			<label index="teaser_more">læs mere</label>
+			<label index="pi_list_browseresults_prev">&lt;- Forrige</label>
+			<label index="pi_list_browseresults_page">Side</label>
+			<label index="pi_list_browseresults_next">Næste -&gt;</label>
+			<label index="pi_list_browseresults_displays">Viser resultaterne ###SPAN_BEGIN###%s til %s&lt;/span&gt; av ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="form_firstname">Vorname</label>
+			<label index="form_surname">Nachname</label>
+			<label index="form_email">E-Mail</label>
+			<label index="form_homepage">Website</label>
+			<label index="form_place">Ort</label>
+			<label index="form_entry">Nachricht</label>
+			<label index="form_entrycomment">Kommentar</label>
+			<label index="form_submit">eintragen</label>
+			<label index="form_error">Bitte vergessen Sie nicht folgende Felder zu befüllen:</label>
+			<label index="form_invalid_field">ungültig</label>
+			<label index="form_blacklisted">gesperrt</label>
+			<label index="form_captcha_response">Antwort</label>
+			<label index="list_from_place">aus</label>
+			<label index="no_entries_headline">Keine Einträge</label>
+			<label index="no_entries_text">Keine Einträge im Gästebuch gefunden.</label>
+			<label index="teaser_headline">Zuletzt im Gästebuch</label>
+			<label index="teaser_more">mehr dazu</label>
+			<label index="pi_list_browseresults_prev">&lt; vorherige Einträge</label>
+			<label index="pi_list_browseresults_page">Seite</label>
+			<label index="pi_list_browseresults_next">weitere Einträge &gt;</label>
+			<label index="pi_list_browseresults_displays">Anzeige: ###SPAN_BEGIN###%s - %s &lt;/span&gt;von ###SPAN_BEGIN###%s.&lt;/span&gt;</label>
+			<label index="notification_mail_subject">Neuer Gästebuch-Eintrag auf ###SERVER_NAME###</label>
+			<label index="notification_mail_text">Hallo ###FIRSTNAME### ###SURNAME###,
+
+vielen Dank für Ihren Eintrag:
+
+E-Mail: ###EMAIL###
+Ort: ###PLACE###
+Website: ###HOMEPAGE###
+Nachricht: ###ENTRY###
+
+Hier geht es direkt zum Gästebuch: ###URL###</label>
+			<label index="feedback_mail_subject">Gästebuch-Eintrag (###SERVER_NAME###)</label>
+			<label index="feedback_mail_text">Ihr Gästebuch-Eintrag:
+
+Name: ###FIRSTNAME### ###SURNAME###
+E-Mail: ###EMAIL###
+Place: ###PLACE###
+Website: ###HOMEPAGE###
+Message: ###ENTRY###
+
+Hier geht es direkt zum Gästebuch: ###URL###</label>
+		</languageKey>
+		<languageKey index="no" type="array">
+			<label index="form_firstname">Fornavn</label>
+			<label index="form_surname">Etternavn</label>
+			<label index="form_email">Epost</label>
+			<label index="form_homepage">Webside</label>
+			<label index="form_place">Sted</label>
+			<label index="form_entry">Melding</label>
+			<label index="form_entrycomment">Kommentar</label>
+			<label index="form_submit">Send inn</label>
+			<label index="form_error">Vennligst fyll inn følgende felt:</label>
+			<label index="form_invalid_field">ugyldig</label>
+			<label index="form_blacklisted">Svartlistet</label>
+			<label index="list_from_place">fra</label>
+			<label index="no_entries_headline">Ingen innlegg</label>
+			<label index="no_entries_text">Ingenting funnet i gjesteboken</label>
+			<label index="teaser_headline">Siste innlegg i gjesteboken</label>
+			<label index="teaser_more">les mer</label>
+			<label index="pi_list_browseresults_prev">&lt;- Forrige</label>
+			<label index="pi_list_browseresults_page">Side</label>
+			<label index="pi_list_browseresults_next">Neste -&gt;</label>
+			<label index="pi_list_browseresults_displays">Viser resultatene ###SPAN_BEGIN###%s til %s&lt;/span&gt; av ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="notification_mail_subject">Nytt gjestebok innlegg (###SERVER_NAME###)</label>
+			<label index="notification_mail_text">Det er et nytt innlegg i din gjestebok:
+
+Navn: ###FIRSTNAME###
+###SURNAME###
+Epost: ###EMAIL###
+Sted: ###PLACE###
+Nettside: ###HOMEPAGE###
+Melding: ###ENTRY###
+
+Klikk her for å se gjesteboka:
+###URL###</label>
+			<label index="feedback_mail_subject">Gjestebok innlegg (###SERVER_NAME###)</label>
+			<label index="feedback_mail_text">Hei ###FIRSTNAME### ###SURNAME###,
+
+Takk for ditt innlegg i gjesteboken:
+
+Navn:
+Epost: ###EMAIL###
+Sted: ###PLACE###
+Nettside: ###HOMEPAGE###
+Melding: ###ENTRY###
+
+Klikk her for å se gjesteboka:
+###URL###</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="form_firstname">Nome</label>
+			<label index="form_surname">Cognome</label>
+			<label index="form_email">Email</label>
+			<label index="form_homepage">Website</label>
+			<label index="form_place">Luogo</label>
+			<label index="form_entry">Messaggio</label>
+			<label index="form_entrycomment">Commento</label>
+			<label index="form_submit">Invia</label>
+			<label index="form_error">Completa i seguenti campi:</label>
+			<label index="form_invalid_field">non corretto</label>
+			<label index="form_blacklisted">bannato</label>
+			<label index="list_from_place">da</label>
+			<label index="no_entries_headline">Nessun elemento</label>
+			<label index="no_entries_text">Nessun elemento trovato nel Guestbook</label>
+			<label index="teaser_headline">Ultimi inserimenti del Guestbook</label>
+			<label index="teaser_more">leggi tutto</label>
+			<label index="pi_list_browseresults_prev">&lt; Precedente</label>
+			<label index="pi_list_browseresults_page">Pagina</label>
+			<label index="pi_list_browseresults_next">Prossimo &gt;</label>
+			<label index="pi_list_browseresults_displays">Visualizzo i risultati da ###SPAN_BEGIN###%s a %s&lt;/span&gt; su ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="notification_mail_subject">Nuovo inserimento nel Guestbook (###SERVER_NAME###)</label>
+			<label index="notification_mail_text">C'é un nuovo inserimento nel tuo Guestbook:
+
+Nome: ###FIRSTNAME### ###SURNAME###
+E-Mail: ###EMAIL###
+Luogo: ###PLACE###
+Website: ###HOMEPAGE###
+Messaggio: ###ENTRY###
+
+Clicca qui per vedere il guestbook: ###URL###</label>
+			<label index="feedback_mail_subject">Inserimento nel Guestbook (###SERVER_NAME###)</label>
+			<label index="feedback_mail_text">Ciao ###FIRSTNAME### ###SURNAME###,
+
+grazie per aver scritto nel nostro guestbook:
+
+E-Mail: ###EMAIL###
+Luogo: ###PLACE###
+Website: ###HOMEPAGE###
+Meesasggio: ###ENTRY###
+
+Clicca qui per vedere il guestbook: ###URL###</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="form_firstname">Nom</label>
+			<label index="form_surname">Prénom</label>
+			<label index="form_email">E-Mail</label>
+			<label index="form_homepage">site Web</label>
+			<label index="form_place">Localisation</label>
+			<label index="form_entry">Message</label>
+			<label index="form_entrycomment">Commentaire</label>
+			<label index="form_submit">Envoi</label>
+			<label index="form_error">Veuillez renseigner les champs suivants:</label>
+			<label index="form_invalid_field">invalide</label>
+			<label index="form_blacklisted">blacklisté</label>
+			<label index="form_captcha_response">Captcha</label>
+			<label index="list_from_place">de</label>
+			<label index="no_entries_headline">Pas de Commentaires</label>
+			<label index="no_entries_text">Pas de Commentaires.</label>
+			<label index="teaser_headline">Derniers Commentaires</label>
+			<label index="teaser_more">Lire la suite</label>
+			<label index="pi_list_browseresults_prev">Précédent</label>
+			<label index="pi_list_browseresults_page">Page</label>
+			<label index="pi_list_browseresults_next">Suivant</label>
+			<label index="pi_list_browseresults_displays">Affiche les résultats ###SPAN_BEGIN###%s à %s&lt;/span&gt; de ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="notification_mail_subject">Nouveau Commentaire (###SERVER_NAME###)</label>
+			<label index="notification_mail_text">Il y a un Nouveau commentaire:
+
+Nom: ###FIRSTNAME### ###SURNAME###
+E-Mail: ###EMAIL###
+Localisation: ###PLACE###
+Site Web: ###HOMEPAGE###
+Message: ###ENTRY###
+
+Clickez ici pour aller à la page: ###URL###</label>
+			<label index="feedback_mail_subject">Commentaire (###SERVER_NAME###)</label>
+			<label index="feedback_mail_text">Bonjour ###FIRSTNAME### ###SURNAME###,
+
+merci pour votre Commentaire:
+
+Nom: 
+E-Mail: ###EMAIL###
+Localisation: ###PLACE###
+Site Web: ###HOMEPAGE###
+Message: ###ENTRY###
+
+Clickez ici pour aller à la page: ###URL###</label>		
+		</languageKey>
+		<languageKey index="es" type="array">
+		</languageKey>
+		<languageKey index="nl" type="array">
+			<label index="form_firstname">Voornaam</label>
+			<label index="form_surname">Achternaam</label>
+			<label index="form_email">Email</label>
+			<label index="form_homepage">Website</label>
+			<label index="form_place">Woonplaats</label>
+			<label index="form_entry">Bericht</label>
+			<label index="form_entrycomment">Opmerking</label>
+			<label index="form_submit">verstuur</label>
+			<label index="form_error">A.u.b. de volgende velden (ook) invullen:</label>
+			<label index="form_invalid_field">foute waarde</label>
+			<label index="list_from_place">uit</label>
+			<label index="no_entries_headline">Geen berichten</label>
+			<label index="no_entries_text">Geen berichten in het gastenboek aangetroffen.</label>
+			<label index="teaser_headline">Nieuwe berichten in het gastenboek</label>
+			<label index="teaser_more">lees meer . . . </label>
+			<label index="pi_list_browseresults_prev">&lt; vorige berichten</label>
+			<label index="pi_list_browseresults_page">pagina</label>
+			<label index="pi_list_browseresults_next">volgende berichten &gt;</label>
+			<label index="pi_list_browseresults_displays">&lt;br/&gt;Berichten ###SPAN_BEGIN###%s&lt;/span&gt; tot en met ###SPAN_BEGIN###%s &lt;/span&gt;van totaal %s</label>
+			<label index="notification_mail_subject">Nieuw gastenboekbericht (###SERVER_NAME###)</label>
+			<label index="notification_mail_text">Er is een nieuw bericht in het gastenboek geplaatst:
+
+Naam: ###FIRSTNAME### ###SURNAME###
+E-Mail: ###EMAIL###
+Plaats: ###PLACE###
+Website: ###HOMEPAGE###
+Bericht: ###ENTRY###
+
+Klik hier voor het gastenboek: ###URL###</label>
+			<label index="feedback_mail_subject">Jouw bericht in ons gastenboek (###SERVER_NAME###)</label>
+			<label index="feedback_mail_text">Hallo ###FIRSTNAME### ###SURNAME###,
+
+Hartelijk dank voor je bericht in ons gastenboek:
+
+E-Mail: ###EMAIL###
+Plaats: ###PLACE###
+Website: ###HOMEPAGE###
+Bericht: ###ENTRY###
+
+Klik hier voor het gastenboek: ###URL###</label>
+		</languageKey>
+		<languageKey index="cz" type="array">
+			<label index="form_firstname">Jméno</label>
+			<label index="form_surname">Příjmení</label>
+			<label index="form_email">E-mail</label>
+			<label index="form_homepage">www</label>
+			<label index="form_place">Místo</label>
+			<label index="form_entry">Vzkaz</label>
+			<label index="form_entrycomment">Komentář</label>
+			<label index="form_submit">Zadat</label>
+			<label index="form_error">Prosím zadejte následující pole:</label>
+			<label index="form_invalid_field">špatné</label>
+			<label index="list_from_place">od</label>
+			<label index="no_entries_headline">Žádné záznamy</label>
+			<label index="no_entries_text">V návštěvní knize nebylo nic nalezeno.</label>
+			<label index="teaser_headline">Poslední záznamy v návštěvní knize</label>
+			<label index="teaser_more">číst víc</label>
+			<label index="pi_list_browseresults_prev">Předchozí</label>
+			<label index="pi_list_browseresults_page">Strana</label>
+			<label index="pi_list_browseresults_next">Další</label>
+			<label index="pi_list_browseresults_displays">Zobrazuji výsledky ###SPAN_BEGIN###%s až %s&lt;/span&gt; z celkem ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="notification_mail_subject">Nový záznam (###SERVER_NAME###)</label>
+			<label index="notification_mail_text">V návštěvní knize je nový záznam:
+
+Jméno: ###FIRSTNAME### ###SURNAME###
+E-Mail: ###EMAIL###
+Místo: ###PLACE###
+www: ###HOMEPAGE###
+Zpráva: ###ENTRY###
+
+Pro zobrazení návštěvní knihy klikněte: ###URL###</label>
+			<label index="feedback_mail_subject">Záznam návštěvní knihy (###SERVER_NAME###)</label>
+			<label index="feedback_mail_text">Dobrý den ###FIRSTNAME### ###SURNAME###,
+
+děkujeme za záznam v návštěvní knize:
+
+Jméno: ###FIRSTNAME### ###SURNAME###
+E-Mail: ###EMAIL###
+Místo: ###PLACE###
+www: ###HOMEPAGE###
+Zpráva: ###ENTRY###
+
+Pro zobrazení návštěvní knihy klikněte: ###URL###</label>
+		</languageKey>
+		<languageKey index="pl" type="array">
+		</languageKey>
+		<languageKey index="si" type="array">
+		</languageKey>
+		<languageKey index="fi" type="array">
+			<label index="form_firstname">Etunimi</label>
+			<label index="form_surname">Sukunimi</label>
+			<label index="form_email">Sähköpostiosoite</label>
+			<label index="form_homepage">Kotisivut</label>
+			<label index="form_place">Sijainti</label>
+			<label index="form_entry">Viesti</label>
+			<label index="form_entrycomment">Kommentti</label>
+			<label index="form_submit">Tallenna</label>
+			<label index="form_error">Ole ystävällinen ja täytä tiedot:</label>
+			<label index="form_invalid_field">virheellinen</label>
+			<label index="list_from_place">alkaen</label>
+			<label index="no_entries_headline">Ei kirjauksia</label>
+			<label index="no_entries_text">Vieraskirjasta ei löytynyt mitään</label>
+			<label index="teaser_headline">Vieraskirjan viimeisimmät kirjaukset</label>
+			<label index="teaser_more">[lue lisää]</label>
+			<label index="pi_list_browseresults_prev">&lt; Edellinen</label>
+			<label index="pi_list_browseresults_page">Sivu</label>
+			<label index="pi_list_browseresults_next">Seuraava &gt;</label>
+			<label index="pi_list_browseresults_displays">Näytetään hakutulokset alkaen ###SPAN_BEGIN###%s aina %s&lt;/span&gt; saakka kaikkiaan ###SPAN_BEGIN###%s&lt;/span&gt; löydetystä.</label>
+			<label index="notification_mail_subject">Uusi vieraskirjan kirjaus (###SERVER_NAME###)</label>
+			<label index="notification_mail_text">Vieraskirjassasi on uusi lisäys:
+
+Nami: ###FIRSTNAME### ###SURNAME###
+E-Mail: ###EMAIL###
+Sijainti: ###PLACE###
+Kotisivut: ###HOMEPAGE##
+Viesti: ###ENTRY###
+
+Katso vieraskirjaasi: ###URL###</label>
+			<label index="feedback_mail_subject">Vieraskirjan kirjaus (###SERVER_NAME###)</label>
+			<label index="feedback_mail_text">Hei ###FIRSTNAME### ###SURNAME###,
+
+kiitos kirjauksestasi vieraskirjaamme:
+
+Nimi:
+E-Mail: ###EMAIL##
+Sijainti: ###PLACE###
+Website: ###HOMEPAGE###
+Viesti: ###ENTRY###
+
+Katso vieraskirja kirjaustasi: ###URL###</label>
+		</languageKey>
+		<languageKey index="tr" type="array">
+			<label index="form_firstname">Ad</label>
+			<label index="form_surname">Soyad</label>
+			<label index="form_email">E-posta</label>
+			<label index="form_homepage">Website</label>
+			<label index="form_place">Konum</label>
+			<label index="form_entry">Mesaj</label>
+			<label index="form_entrycomment">Yorum</label>
+			<label index="form_submit">Gönder</label>
+			<label index="form_error">Bu alanlarda bilgiler eksik:</label>
+			<label index="form_invalid_field">geçersiz</label>
+			<label index="form_blacklisted">kara listede</label>
+			<label index="list_from_place">Gönderen</label>
+			<label index="no_entries_headline">Kayıt yok.</label>
+			<label index="no_entries_text">Herhangi bir kayıt bulunamadı.</label>
+			<label index="teaser_headline">Ziyaretçi defterinde en son kayıtlar</label>
+			<label index="teaser_more">devamı</label>
+			<label index="pi_list_browseresults_prev">Önceki</label>
+			<label index="pi_list_browseresults_page">Sayfa</label>
+			<label index="pi_list_browseresults_next">Sonraki</label>
+			<label index="pi_list_browseresults_displays">Görüntülenen sonuçlar: ###SPAN_BEGIN###%s ila %s&lt;/span&gt;. Toplam sonuç sayısı: ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="notification_mail_subject">Ziyaretçi defterinde yeni kayıt (###SERVER_NAME###)</label>
+			<label index="notification_mail_text">Ziyaretçi defterinde yeni kayıt mevcut:
+
+İsim: ###FIRSTNAME### ###SURNAME###
+E-posta: ###EMAIL###
+Konum: ###PLACE###
+Website: ###HOMEPAGE###
+Mesaj: ###ENTRY###
+
+Ziyaretçi defterine ulaşmak için tıklayın: ###URL###</label>
+			<label index="feedback_mail_subject">Ziyaretçi defteri kayıdı (###SERVER_NAME###)</label>
+			<label index="feedback_mail_text">Sevgili ###FIRSTNAME### ###SURNAME###,
+
+mesajınız için teşekkür ederiz. 
+
+İsim: 
+E-posta: ###EMAIL###
+Konum: ###PLACE###
+Website: ###HOMEPAGE###
+Mesaj: ###ENTRY###
+
+Ziyaretçi defterine ulaşmak için tıklayın: ###URL###</label>
+		</languageKey>
+		<languageKey index="se" type="array">
+			<label index="form_firstname">Förnamn</label>
+			<label index="form_surname">Efternamn</label>
+			<label index="form_email">Epost</label>
+			<label index="form_homepage">Hemsida</label>
+			<label index="form_place">Plats</label>
+			<label index="form_entry">Meddelande</label>
+			<label index="form_entrycomment">Kommentar</label>
+			<label index="form_submit">Sänd</label>
+			<label index="form_error">Fyll i följand fält:</label>
+			<label index="form_invalid_field">icke giltig</label>
+			<label index="list_from_place">från</label>
+			<label index="no_entries_headline">Ingen inmatning</label>
+			<label index="no_entries_text">Gästboken är tom</label>
+			<label index="teaser_headline">Senaste tillägg i gästboken</label>
+			<label index="teaser_more">läs mera</label>
+			<label index="pi_list_browseresults_prev">&lt; Föregående</label>
+			<label index="pi_list_browseresults_page">Denna sida</label>
+			<label index="pi_list_browseresults_next">Nästa &gt;</label>
+			<label index="pi_list_browseresults_displays">Visar resultat ###SPAN_BEGIN###%s till %s&lt;/span&gt; av ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+		</languageKey>
+		<languageKey index="pt" type="array">
+		</languageKey>
+		<languageKey index="ru" type="array">
+		</languageKey>
+		<languageKey index="ro" type="array">
+		</languageKey>
+		<languageKey index="ch" type="array">
+		</languageKey>
+		<languageKey index="sk" type="array">
+			<label index="form_surname">Meno</label>
+			<label index="form_email">Mail</label>
+			<label index="form_entry">Text</label>
+			<label index="form_submit">Odošli</label>
+			<label index="form_error">Prosím vyplňte nasledovné políčka:</label>
+			<label index="form_invalid_field">nesprávne</label>
+			<label index="form_captcha_response">Overovací kód</label>
+			<label index="no_entries_text">Nie sú žiadne záznamy.</label>
+			<label index="pi_list_browseresults_prev">novšie</label>
+			<label index="pi_list_browseresults_page">Stránka</label>
+			<label index="pi_list_browseresults_next">staršie</label>
+			<label index="pi_list_browseresults_displays">Zobrazujem výsledky od ###SPAN_BEGIN###%s až %s&lt;/span&gt; z ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+		</languageKey>
+		<languageKey index="is" type="array">
+		</languageKey>
+		<languageKey index="hr" type="array">
+		</languageKey>
+		<languageKey index="hu" type="array">
+			<label index="form_firstname">Keresztnév</label>
+			<label index="form_surname">Családnév</label>
+			<label index="form_email">E-Mail</label>
+			<label index="form_homepage">Weboldal</label>
+			<label index="form_place">Hely</label>
+			<label index="form_entry">Üzenet</label>
+			<label index="form_entrycomment">Megjegyzés</label>
+			<label index="form_submit">Elküld</label>
+			<label index="form_error">Kérem töltse ki a következő mezőket:</label>
+			<label index="form_invalid_field">hibás</label>
+			<label index="list_from_place">tól/től</label>
+			<label index="no_entries_headline">Nincs bejegyzés</label>
+			<label index="no_entries_text">A vendégönyvben nem találtam semmit.</label>
+			<label index="teaser_headline">Legfrissebb bejegyzések a vendégkönyvben</label>
+			<label index="teaser_more">tovább olvas</label>
+			<label index="pi_list_browseresults_prev">&lt;Előző</label>
+			<label index="pi_list_browseresults_page">Oldal</label>
+			<label index="pi_list_browseresults_next">Következő&gt;</label>
+			<label index="pi_list_browseresults_displays">Eredmények megjelenítése ###SPAN_BEGIN###%s -tól&lt;/span&gt; összesen ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="notification_mail_subject">Új bejegyzés a vendégönyvbe (###SERVER_NAME###)</label>
+			<label index="notification_mail_text">Új bejegyzés történt az Ön vendégkönyvébe:
+
+Név: ###SURNAME### ###FIRSTNAME###
+E-Mail: ###EMAIL###
+Hely: ###PLACE###
+Weboldal: ###HOMEPAGE###
+Üzenet: ###ENTRY###
+
+Kattintson ide a vebdégkönyv megtekintéséhez: ###URL###</label>
+		</languageKey>
+		<languageKey index="gl" type="array">
+		</languageKey>
+		<languageKey index="th" type="array">
+		</languageKey>
+		<languageKey index="gr" type="array">
+		</languageKey>
+		<languageKey index="hk" type="array">
+		</languageKey>
+		<languageKey index="eu" type="array">
+		</languageKey>
+		<languageKey index="bg" type="array">
+		</languageKey>
+		<languageKey index="br" type="array">
+			<label index="form_firstname">Nome</label>
+			<label index="form_surname">Sobrenome</label>
+			<label index="form_email">E-mail</label>
+			<label index="form_homepage">Website</label>
+			<label index="form_place">Localização</label>
+			<label index="form_entry">Mensagem</label>
+			<label index="form_entrycomment">Comentário</label>
+			<label index="form_submit">Enviar</label>
+			<label index="form_error">Por favor preencha os seguintes campos:</label>
+			<label index="form_invalid_field">inválido</label>
+			<label index="list_from_place">de</label>
+			<label index="no_entries_headline">Sem entradas</label>
+			<label index="no_entries_text">Nada foi encontrado no livro de visitas.</label>
+			<label index="teaser_headline">Últimas entradas no livro de visitas</label>
+			<label index="teaser_more">ler mais</label>
+			<label index="pi_list_browseresults_prev">&lt; Anterior</label>
+			<label index="pi_list_browseresults_page">Página</label>
+			<label index="pi_list_browseresults_next">Próxima &gt;</label>
+			<label index="pi_list_browseresults_displays">Exibindo os resultado ###SPAN_BEGIN###%s de %s&lt;/span&gt; até ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="notification_mail_subject">Nova entrada de livro de visitas (###SERVER_NAME###)</label>
+			<label index="notification_mail_text">Há uma nova entrada em seu livro de visitas:
+
+Nome: ###FIRSTNAME### ###SURNAME###
+E-Mail: ###EMAIL###
+Localização: ###PLACE###
+Website: ###HOMEPAGE###
+Mensagem: ###ENTRY###
+
+Clique aqui para ver o seu livro de visitas: ###URL###</label>
+			<label index="feedback_mail_subject">Entrada no livro de visitas (###SERVER_NAME###)</label>
+			<label index="feedback_mail_text">Olá ###FIRSTNAME### ###SURNAME###,
+
+obrigado por sua mensagem no livro de visitas:
+
+Nome:
+E-Mail: ###EMAIL###
+Localização: ###PLACE###
+Website: ###HOMEPAGE###
+Mensagem: ###ENTRY###
+
+Clique aqui para ver o livro de visitas: ###URL###</label>
+		</languageKey>
+		<languageKey index="et" type="array">
+		</languageKey>
+		<languageKey index="ar" type="array">
+		</languageKey>
+		<languageKey index="he" type="array">
+		</languageKey>
+		<languageKey index="ua" type="array">
+			<label index="form_firstname">Ім'я</label>
+			<label index="form_surname">Прізвище</label>
+			<label index="form_email">E-Mail адреса</label>
+			<label index="form_homepage">Веб сайт</label>
+			<label index="form_place">Звідки</label>
+			<label index="form_entry">Повідомлення</label>
+			<label index="form_entrycomment">Коментар</label>
+			<label index="form_submit">Відіслати</label>
+			<label index="form_error">Будь-ласка, введіть такі поля:</label>
+			<label index="form_invalid_field">невірний</label>
+			<label index="form_blacklisted">заблокований</label>
+			<label index="list_from_place">від</label>
+			<label index="no_entries_headline">Записів нема</label>
+			<label index="no_entries_text">В гостьовій книзі немає записів.</label>
+			<label index="teaser_headline">Останні записи в гостьовій книзі</label>
+			<label index="teaser_more">читати далі</label>
+			<label index="pi_list_browseresults_prev">Попередня</label>
+			<label index="pi_list_browseresults_page">Сторінка</label>
+			<label index="pi_list_browseresults_next">Наступна</label>
+			<label index="pi_list_browseresults_displays">Результати ###SPAN_BEGIN###%s - %s&lt;/span&gt; з ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="notification_mail_subject">Новий коментар (###SERVER_NAME###)</label>
+			<label index="notification_mail_text">В вашій гостьовій книзі новий коментар:
+
+Ім\'я: ###FIRSTNAME### ###SURNAME###
+E-Mail адреса: ###EMAIL###
+Звідки: ###PLACE###
+Веб сайт: ###HOMEPAGE###
+Повідомлення: ###ENTRY###
+
+Натисніть сюди, щоб переглянути цей запис: ###URL###</label>
+			<label index="feedback_mail_subject">Запис в гостьовій (###SERVER_NAME###)</label>
+			<label index="feedback_mail_text">Доброго дня ###FIRSTNAME### ###SURNAME###,
+
+Дякуємо за коментар у гостьовій книзі:
+
+Ім\'я: ###FIRSTNAME### ###SURNAME###
+E-Mail адреса: ###EMAIL###
+Звідки: ###PLACE###
+Веб сайт: ###HOMEPAGE###
+Повідомлення: ###ENTRY###
+
+Натисніть сюди, щоб переглянути цей запис: ###URL###</label>
+		</languageKey>
+		<languageKey index="lv" type="array">
+		</languageKey>
+		<languageKey index="jp" type="array">
+		</languageKey>
+		<languageKey index="vn" type="array">
+		</languageKey>
+		<languageKey index="ca" type="array">
+		</languageKey>
+		<languageKey index="ba" type="array">
+		</languageKey>
+		<languageKey index="kr" type="array">
+		</languageKey>
+		<languageKey index="eo" type="array">
+		</languageKey>
+		<languageKey index="my" type="array">
+		</languageKey>
+		<languageKey index="hi" type="array">
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="form_blacklisted" type="integer">39535481</label>
+			<label index="form_captcha_response" type="integer">229310285</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="notification_mail_subject" type="integer">218094461</label>
+			<label index="notification_mail_text" type="integer">184011694</label>
+			<label index="feedback_mail_subject" type="integer">8475056</label>
+			<label index="feedback_mail_text" type="integer">168171582</label>
+		</languageKey>
+		<languageKey index="no" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="form_blacklisted" type="integer">39535481</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="notification_mail_subject" type="integer">218094461</label>
+			<label index="notification_mail_text" type="integer">184011694</label>
+			<label index="feedback_mail_subject" type="integer">8475056</label>
+			<label index="feedback_mail_text" type="integer">168171582</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="form_blacklisted" type="integer">39535481</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="notification_mail_subject" type="integer">218094461</label>
+			<label index="notification_mail_text" type="integer">184011694</label>
+			<label index="feedback_mail_subject" type="integer">8475056</label>
+			<label index="feedback_mail_text" type="integer">168171582</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+		</languageKey>
+		<languageKey index="es" type="array">
+		</languageKey>
+		<languageKey index="nl" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="notification_mail_subject" type="integer">218094461</label>
+			<label index="notification_mail_text" type="integer">184011694</label>
+			<label index="feedback_mail_subject" type="integer">8475056</label>
+			<label index="feedback_mail_text" type="integer">168171582</label>
+		</languageKey>
+		<languageKey index="cz" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="notification_mail_subject" type="integer">218094461</label>
+			<label index="notification_mail_text" type="integer">184011694</label>
+			<label index="feedback_mail_subject" type="integer">8475056</label>
+			<label index="feedback_mail_text" type="integer">168171582</label>
+		</languageKey>
+		<languageKey index="pl" type="array">
+		</languageKey>
+		<languageKey index="si" type="array">
+		</languageKey>
+		<languageKey index="fi" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="notification_mail_subject" type="integer">218094461</label>
+			<label index="notification_mail_text" type="integer">184011694</label>
+			<label index="feedback_mail_subject" type="integer">8475056</label>
+			<label index="feedback_mail_text" type="integer">168171582</label>
+		</languageKey>
+		<languageKey index="tr" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="form_blacklisted" type="integer">39535481</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="notification_mail_subject" type="integer">218094461</label>
+			<label index="notification_mail_text" type="integer">184011694</label>
+			<label index="feedback_mail_subject" type="integer">8475056</label>
+			<label index="feedback_mail_text" type="integer">168171582</label>
+		</languageKey>
+		<languageKey index="se" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+		</languageKey>
+		<languageKey index="pt" type="array">
+		</languageKey>
+		<languageKey index="ru" type="array">
+		</languageKey>
+		<languageKey index="ro" type="array">
+		</languageKey>
+		<languageKey index="ch" type="array">
+		</languageKey>
+		<languageKey index="sk" type="array">
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_captcha_response" type="integer">229310285</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+		</languageKey>
+		<languageKey index="is" type="array">
+		</languageKey>
+		<languageKey index="hr" type="array">
+		</languageKey>
+		<languageKey index="hu" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="notification_mail_subject" type="integer">218094461</label>
+			<label index="notification_mail_text" type="integer">184011694</label>
+		</languageKey>
+		<languageKey index="gl" type="array">
+		</languageKey>
+		<languageKey index="th" type="array">
+		</languageKey>
+		<languageKey index="gr" type="array">
+		</languageKey>
+		<languageKey index="hk" type="array">
+		</languageKey>
+		<languageKey index="eu" type="array">
+		</languageKey>
+		<languageKey index="bg" type="array">
+		</languageKey>
+		<languageKey index="br" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="notification_mail_subject" type="integer">218094461</label>
+			<label index="notification_mail_text" type="integer">184011694</label>
+			<label index="feedback_mail_subject" type="integer">8475056</label>
+			<label index="feedback_mail_text" type="integer">168171582</label>
+		</languageKey>
+		<languageKey index="et" type="array">
+		</languageKey>
+		<languageKey index="ar" type="array">
+		</languageKey>
+		<languageKey index="he" type="array">
+		</languageKey>
+		<languageKey index="ua" type="array">
+			<label index="form_firstname" type="integer">4290288</label>
+			<label index="form_surname" type="integer">149247351</label>
+			<label index="form_email" type="integer">8578394</label>
+			<label index="form_homepage" type="integer">22789021</label>
+			<label index="form_place" type="integer">129617664</label>
+			<label index="form_entry" type="integer">79866110</label>
+			<label index="form_entrycomment" type="integer">12485638</label>
+			<label index="form_submit" type="integer">172833558</label>
+			<label index="form_error" type="integer">203109214</label>
+			<label index="form_invalid_field" type="integer">267236056</label>
+			<label index="form_blacklisted" type="integer">39535481</label>
+			<label index="list_from_place" type="integer">228106367</label>
+			<label index="no_entries_headline" type="integer">121788331</label>
+			<label index="no_entries_text" type="integer">231137615</label>
+			<label index="teaser_headline" type="integer">145049305</label>
+			<label index="teaser_more" type="integer">227908542</label>
+			<label index="pi_list_browseresults_prev" type="integer">231864181</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">17482704</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="notification_mail_subject" type="integer">218094461</label>
+			<label index="notification_mail_text" type="integer">184011694</label>
+			<label index="feedback_mail_subject" type="integer">8475056</label>
+			<label index="feedback_mail_text" type="integer">168171582</label>
+		</languageKey>
+		<languageKey index="lv" type="array">
+		</languageKey>
+		<languageKey index="jp" type="array">
+		</languageKey>
+		<languageKey index="vn" type="array">
+		</languageKey>
+		<languageKey index="ca" type="array">
+		</languageKey>
+		<languageKey index="ba" type="array">
+		</languageKey>
+		<languageKey index="kr" type="array">
+		</languageKey>
+		<languageKey index="eo" type="array">
+		</languageKey>
+		<languageKey index="my" type="array">
+		</languageKey>
+		<languageKey index="hi" type="array">
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+		</languageKey>
+		<languageKey index="de" type="array">
+		</languageKey>
+		<languageKey index="no" type="array">
+		</languageKey>
+		<languageKey index="it" type="array">
+		</languageKey>
+		<languageKey index="fr" type="array">
+		</languageKey>
+		<languageKey index="es" type="array">
+		</languageKey>
+		<languageKey index="nl" type="array">
+		</languageKey>
+		<languageKey index="cz" type="array">
+		</languageKey>
+		<languageKey index="pl" type="array">
+		</languageKey>
+		<languageKey index="si" type="array">
+		</languageKey>
+		<languageKey index="fi" type="array">
+		</languageKey>
+		<languageKey index="tr" type="array">
+		</languageKey>
+		<languageKey index="se" type="array">
+		</languageKey>
+		<languageKey index="pt" type="array">
+		</languageKey>
+		<languageKey index="ru" type="array">
+		</languageKey>
+		<languageKey index="ro" type="array">
+		</languageKey>
+		<languageKey index="ch" type="array">
+		</languageKey>
+		<languageKey index="sk" type="array">
+			<label index="form_surname">Surname</label>
+			<label index="form_email">E-Mail</label>
+			<label index="form_entry">Message</label>
+			<label index="pi_list_browseresults_displays">Displaying results ###SPAN_BEGIN###%s to %s&lt;/span&gt; out of ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="form_submit">Submit</label>
+			<label index="form_captcha_response">Captcha Answer</label>
+			<label index="no_entries_text">Nothing found in the guestbook.</label>
+			<label index="pi_list_browseresults_prev">Previous</label>
+			<label index="pi_list_browseresults_page">Page</label>
+			<label index="pi_list_browseresults_next">Next</label>
+			<label index="form_error">Please enter following fields:</label>
+			<label index="form_invalid_field">invalid</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+		</languageKey>
+		<languageKey index="is" type="array">
+		</languageKey>
+		<languageKey index="hr" type="array">
+		</languageKey>
+		<languageKey index="hu" type="array">
+		</languageKey>
+		<languageKey index="gl" type="array">
+		</languageKey>
+		<languageKey index="th" type="array">
+		</languageKey>
+		<languageKey index="gr" type="array">
+		</languageKey>
+		<languageKey index="hk" type="array">
+		</languageKey>
+		<languageKey index="eu" type="array">
+		</languageKey>
+		<languageKey index="bg" type="array">
+		</languageKey>
+		<languageKey index="br" type="array">
+		</languageKey>
+		<languageKey index="et" type="array">
+		</languageKey>
+		<languageKey index="ar" type="array">
+		</languageKey>
+		<languageKey index="he" type="array">
+		</languageKey>
+		<languageKey index="ua" type="array">
+		</languageKey>
+		<languageKey index="lv" type="array">
+		</languageKey>
+		<languageKey index="jp" type="array">
+		</languageKey>
+		<languageKey index="vn" type="array">
+		</languageKey>
+		<languageKey index="ca" type="array">
+		</languageKey>
+		<languageKey index="ba" type="array">
+		</languageKey>
+		<languageKey index="kr" type="array">
+		</languageKey>
+		<languageKey index="eo" type="array">
+		</languageKey>
+		<languageKey index="my" type="array">
+		</languageKey>
+		<languageKey index="hi" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallang>

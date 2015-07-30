@@ -1,0 +1,247 @@
+plugin.tx_veguestbook_pi1 {
+  userFunc = tx_veguestbook_pi1->main
+  templateFile = {$plugin.tx_veguestbook_pi1.file.templateFile}
+  teasercut = 50
+  wordcut = 100
+  sortingField = crdate
+  sortingDirection = desc
+  limit = 5
+  email_from_name = 
+  email_from_mail = 
+  allowedTags = <a>,<br>,<b>,<li>,<ol>,<p>,<strong>,<u>,<ul>
+  obligationfields = 
+
+  datetime_stdWrap.strftime=  %A, %d-%m-%y %H:%M
+  date_stdWrap.strftime= %d.%m.%y
+  time_stdWrap.strftime= %H:%M
+
+  email_stdWrap.wrap = |
+
+  clearCacheCmdOnInsert =
+
+  emoticons {
+  	active = 0
+	10 = IMAGE
+	10 {
+	  file = EXT:ve_guestbook/pi1/emoticons/###EMOTICON###.gif
+	  params = hspace="1" vspace="1"
+	  border = 0
+	  altText = Emoticon
+	  titleText = Emoticon
+	}
+	
+	subst {
+	  11.str = :D
+	  11.val = 1
+	  12.str = :) || :-) 
+	  12.val = 2
+	  13.str = :( || :-(
+	  13.val = 3
+	  14.str = :cry:
+	  14.val = 4
+	  15.str = :?:
+	  15.val = 5
+	  16.str = ;) || ;-)
+	  16.val = 6
+	}
+  }
+
+  _CSS_DEFAULT_STYLE (
+
+    .tx-veguestbook-pi1 {
+        font-size:100%;
+    }
+  
+    /* error handling */
+	.tx-veguestbook-pi1 p.tx-guestbook-form-error {
+		font-weight:bold;
+		color:#990000;
+	}
+	
+	/* display of result count */
+	.tx-veguestbook-pi1 .tx-guestbook-result {
+		font-weight:bold;
+		float:left;
+	}
+	
+	/* pagination */
+	.tx-veguestbook-pi1 .tx-guestbook-pagination {
+		font-size:75%;
+		font-weight:bold;
+		float:right;
+	}
+	
+	/* styles for list mode */
+	.tx-veguestbook-pi1 h2.tx-guestbook-header {
+		clear:both;
+		background:#666;
+		color:#FFF;
+		display:block;
+		font-size:100%;
+		font-weight:bold;
+		padding: 1em;
+		width: 35em;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-left {
+		float:left;
+		width:12em;
+		background:#EFEFEF;
+		min-height:4em;
+		padding: 1em;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-left {
+		height:4em;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-left p {
+		color:#333;
+	}
+ 
+	.tx-veguestbook-pi1 .tx-guestbook-right {
+		float:left;
+		width:21em;
+		background:#FFF;
+		padding: 1em;
+	}
+	
+	/* styles for latest mode */
+	.tx-veguestbook-pi1 .tx-guestbook-latest p,
+	.tx-veguestbook-pi1 .tx-guestbook-right p {
+		color:#333;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-latest p.tx-guestbook-date,
+	.tx-veguestbook-pi1 .tx-guestbook-right p.tx-guestbook-date {
+        font-weight: bold;
+	}
+ 
+	.tx-veguestbook-pi1 .tx-guestbook-right h3 {
+		font-size:100%;
+		color:#990000;
+		font-weight:bold;
+		background:none;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-right .tx-guestbook-comment {
+		font-size:75%;
+		color:#333;
+		font-style: italic;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-latest {
+		display:block;
+		padding:0.25em;
+		clear:both;
+	}
+	
+	/* form styles */
+	.tx-veguestbook-pi1 .tx-guestbook-field {
+		clear:both;
+		width:100%;
+		display:block;
+		padding: 1em 0;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-field label {
+		clear: both;
+		display: block;
+		float: left;
+		width: 10em;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-field input.tx-guestbook-form-inputfield-med {
+		float:left;
+		width:10em;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-field input.tx-guestbook-form-inputfield-big {
+		float:left;
+		width:20em;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-field textarea.tx-guestbook-form-textarea {
+		width: 30em;
+		display: block;
+		float: left;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-field span.tx-guestbook-form-obligationfield {
+		color:#990000;
+	}
+	
+	.tx-veguestbook-pi1 fieldset {
+		border:none;
+	}
+	
+	.tx-veguestbook-pi1 legend {
+		display:none;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-freecap {
+		float:left;
+		display:block;
+		background:#F7F7F7;
+		border:1px solid #CCC;
+	}
+ 
+	.tx-veguestbook-pi1 .tx-guestbook-freecap {
+		margin-left:2.25em;
+	}
+ 
+	
+	.tx-veguestbook-pi1 .tx-guestbook-freecap img {
+		float:left;
+		display:block;
+		padding-left:0.25em;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-freecap input {
+		float:left;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-freecap label {
+		clear:both;
+		display:block;
+		float:none;
+		width:10em;
+		margin-bottom:0.5em;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-freecap p {
+		font-size:75%;
+		padding:0.25em;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-freecap h3 {
+		display:none;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-freecap span.tx-srfreecap-pi2-cant-read {
+		color:#990000;
+	}
+	
+	.tx-veguestbook-pi1 .tx-guestbook-clear {
+		clear:both;
+		display:block;
+	}
+	
+	.tx-veguestbook-pi1 input.tx-guestbook-submit {
+		width:auto;
+		display:block;
+	}
+  )
+
+  pageBrowser {
+    maxPages = 10
+    # if you want the pagebrowser to display only numbers, set showPBrowserText to 0.  
+    tableParams = cellpadding="5" cellspacing="0" border="0"
+    showResultCount = 1
+    activepage_stdWrap.wrap = <strong>|</strong>
+    page_stdWrap.wrap = |
+    pagelink_stdWrap.wrap = |
+    previous_stdWrap.wrap =|
+    next_stdWrap.wrap = |
+  }
+}

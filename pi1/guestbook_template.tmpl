@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ve_guestbook</title>
+</head>
+
+<body>
+
+<!-- ###TEMPLATE_LIST### begin -->
+	<div class="tx-guestbook-result">
+		###RESULT_COUNT###
+	</div>
+	
+	<div class="tx-guestbook-pagination">
+		###LINK_PREV### ###PAGES### ###LINK_NEXT###
+	</div>
+	<div class="tx-guestbook-clear">&nbsp;</div>
+	
+	<!-- ###CONTENT### begin -->
+ 
+	<!-- ###ENTRY### begin -->
+		<h2 class="tx-guestbook-header">###GUESTBOOK_FIRSTNAME### ###GUESTBOOK_SURNAME### ###GUESTBOOK_FROM### ###GUESTBOOK_PLACE###</h2>
+		
+		<div class="tx-guestbook-left">
+			<!-- ###ENTRY_EMAIL### begin -->
+				<p><a href="###GUESTBOOK_EMAIL_URL###">###GUESTBOOK_EMAIL###</a></p>
+			<!-- ###ENTRY_EMAIL###  end -->
+			
+			<!-- ###ENTRY_HOMEPAGE### begin -->
+				<p><a href="###GUESTBOOK_HOMEPAGE_URL###">###GUESTBOOK_HOMEPAGE###</a></p>
+			<!-- ###ENTRY_HOMEPAGE### end -->
+		</div>
+		
+		<div class="tx-guestbook-right">
+			<p class="tx-guestbook-date">###GUESTBOOK_DATE###</p>
+			<p>###GUESTBOOK_ENTRY###</p>
+			<!-- ###ENTRY_ENTRYCOMMENT### begin -->
+				<h3>###FORM_ENTRYCOMMENT###:</h3>
+				<p class="tx-guestbook-comment">###GUESTBOOK_ENTRYCOMMENT###</p>
+			<!-- ###ENTRY_ENTRYCOMMENT###  end -->
+		</div>
+		
+		<div class="tx-guestbook-clear">&nbsp;</div>
+	<!-- ###ENTRY### end-->
+	
+	<!-- ###CONTENT###  end -->
+	
+	<div class="tx-guestbook-pagination">
+		###LINK_PREV### ###PAGES### ###LINK_NEXT###
+	</div>
+	<div class="tx-guestbook-clear">&nbsp;</div>
+<!-- ###TEMPLATE_LIST### end -->
+ 
+ 
+ 
+<!-- ###TEMPLATE_NO_ENTRIES### begin -->
+	<h2 class="tx-guestbook-header">###NO_ENTRIES_HEADLINE###</h2>
+	<div class="tx-guestbook-right">###NO_ENTRIES_TEXT###</div>
+<!-- ###TEMPLATE_NO_ENTRIES### end -->
+ 
+ 
+ 
+<!-- ###TEMPLATE_TEASER### begin -->
+	<h2 class="tx-guestbook-header">###TEASER_HEADLINE###</h2>
+	<div class="tx-guestbook-latest">
+		<!-- ###CONTENT### begin -->
+		<!-- ###ENTRY### begin -->						
+		<p class="tx-guestbook-date">###GUESTBOOK_DATE###</p>
+		<p>###GUESTBOOK_FIRSTNAME### ###GUESTBOOK_SURNAME###:</p>
+		<p>###GUESTBOOK_ENTRY###</p>
+		<!-- ###ENTRY### end-->		
+		<!-- ###CONTENT###  end -->
+		<p class="tx-guestbook-latest-more"><!-- ###LINK_ITEM### -->###TEASER_MORE###<!-- ###LINK_ITEM### --></p>
+	</div>
+<!-- ###TEMPLATE_TEASER### end -->
+ 
+ 
+<!-- ###TEMPLATE_NO_ENTRIES### begin -->
+	<h2>###NO_ENTRIES_HEADLINE###</h2>
+	<div class="tx-guestbook-list-row">###NO_ENTRIES_TEXT###</div>
+<!-- ###TEMPLATE_NO_ENTRIES### end -->
+ 
+ 
+ 
+<!-- ###TEMPLATE_TEASER### begin -->
+	<h2 class="tx-guestbook-header">###TEASER_HEADLINE###</h2>
+	<div class="tx-guestbook-latest">
+		<!-- ###CONTENT### begin -->
+		<!-- ###ENTRY### begin -->						
+		<p class="tx-guestbook-date">###GUESTBOOK_DATE###</p>
+		<p>###GUESTBOOK_FIRSTNAME### ###GUESTBOOK_SURNAME###:</p>
+		<p>###GUESTBOOK_ENTRY###</p>
+		<!-- ###ENTRY### end-->		
+		<!-- ###CONTENT###  end -->
+		<p class="tx-guestbook-latest-more"><!-- ###LINK_ITEM### -->###TEASER_MORE###<!-- ###LINK_ITEM### --></p>
+	</div>
+<!-- ###TEMPLATE_TEASER### end -->
+ 
+ 
+ 
+ 
+<!-- ###TEMPLATE_FORM### -->
+<p class="tx-guestbook-form-error">###FORM_ERROR###</p>
+###FORM_ERROR_FIELDS###
+ 
+<form method="post" action="###ACTION_URL###">
+<fieldset>
+	<legend>###FORM_LEGEND###</legend>
+	
+	<div class="tx-guestbook-field">
+		<label for="firstname">###FORM_FIRSTNAME### <span class="tx-guestbook-form-obligationfield">###FORM_FIRSTNAME_OBLIGATION###</span></label>
+		<input type="text" name="tx_veguestbook_pi1[firstname]" value="###VALUE_FIRSTNAME###" class="tx-guestbook-form-inputfield-med" id="firstname" />
+	</div>
+	
+	<div class="tx-guestbook-field">
+		<label for="surname">###FORM_SURNAME### <span class="tx-guestbook-form-obligationfield">###FORM_SURNAME_OBLIGATION###</span></label>
+		<input type="text" name="tx_veguestbook_pi1[surname]" value="###VALUE_SURNAME###" class="tx-guestbook-form-inputfield-med" id="surname" />
+	</div>
+	
+	<div class="tx-guestbook-field">
+		<label for="email">###FORM_EMAIL### <span class="tx-guestbook-form-obligationfield">###FORM_EMAIL_OBLIGATION###</span></label>
+		<input type="text" name="tx_veguestbook_pi1[email]" value="###VALUE_EMAIL###" class="tx-guestbook-form-inputfield-big" id="email" />
+	</div>
+ 
+	<div class="tx-guestbook-field">
+		<label for="homepage">###FORM_HOMEPAGE### <span class="tx-guestbook-form-obligationfield">###FORM_HOMEPAGE_OBLIGATION###</span></label>
+		<input type="text" name="tx_veguestbook_pi1[homepage]" value="###VALUE_HOMEPAGE###" class="tx-guestbook-form-inputfield-big" id="homepage" />
+	</div>
+	
+	<div class="tx-guestbook-field">
+		<label for="place">###FORM_PLACE### <span class="tx-guestbook-form-obligationfield">###FORM_PLACE_OBLIGATION###</span></label>
+		<input type="text" name="tx_veguestbook_pi1[place]" value="###VALUE_PLACE###" class="tx-guestbook-form-inputfield-med" id="place" />
+	</div>
+	
+<!-- ###CAPTCHA_INSERT### this subpart is removed if CAPTCHA is not enabled! -->
+    <div class="tx-guestbook-field">
+		<label for="capture">###FORM_CAPTCHA_RESPONSE### <span class="tx-guestbook-form-obligationfield">*</span><br />###CAPTCHA_IMAGE###</label>
+		<input type="text" class="tx-guestbook-form-inputfield-med" name="tx_veguestbook_pi1[captcha_response]" value="" id="capture" />
+	    
+    </div>
+ <!-- ###CAPTCHA_INSERT### -->
+	
+<!-- ###SR_FREECAP_INSERT### this subpart is removed if CAPTCHA is not enabled! -->
+ 	<div class="tx-guestbook-field">
+		<label for="freecap">###SR_FREECAP_NOTICE### <span class="tx-guestbook-form-obligationfield">*</span><br /><span class="freecap-span">###SR_FREECAP_CANT_READ###</span></label>
+		###SR_FREECAP_IMAGE###&nbsp;<input type="text" class="tx-guestbook-form-inputfield-med" name="tx_veguestbook_pi1[captcha_response]" title="###SR_FREECAP_NOTICE###" value="" id="freecap" />
+		
+	</div>
+<!-- ###SR_FREECAP_INSERT### -->
+ 	
+	<div class="tx-guestbook-field">
+		<label for="message">###FORM_ENTRY### <span class="tx-guestbook-form-obligationfield">###FORM_ENTRY_OBLIGATION###</span></label>
+		<textarea name="tx_veguestbook_pi1[entry]" class="tx-guestbook-form-textarea" rows="4" cols="25" id="message">###VALUE_ENTRY###</textarea>
+	</div>	
+	
+	<div class="tx-guestbook-field">
+		<input type="hidden" name="id" value="###PID###" />
+		<input type="hidden" name="tx_veguestbook_pi1[submitted]" value="1" />
+		<input type="submit" value="###FORM_SUBMIT###" class="tx-guestbook-submit" />
+	</div>
+	
+</fieldset>
+</form>
+<!-- ###TEMPLATE_FORM### end -->
+
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+plugin.tx_veguestbook_pi1 {
+    file.templateFile = EXT:ve_guestbook/pi1/guestbook_template.tmpl
+}

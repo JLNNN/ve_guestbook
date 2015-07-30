@@ -1,0 +1,376 @@
+<T3DataStructure>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+				<sheetTitle>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.sheet_general</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+
+					<what_to_display>
+						<TCEforms>	<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.what_to_display</label>
+						<config>
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">LIST</numIndex>
+									<numIndex index="1">LIST</numIndex>
+								</numIndex>
+									<numIndex index="1" type="array">
+									<numIndex index="0">TEASER</numIndex>
+								<numIndex index="1">TEASER</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">FORM</numIndex>
+									<numIndex index="1">FORM</numIndex>
+								</numIndex>
+							</items>	
+							<maxitems>1</maxitems>
+							<size>1</size>
+						</config>
+						</TCEforms>
+					</what_to_display>
+					<pages>
+						<TCEforms>
+						<exclude>1</exclude>
+						<label>LLL:EXT:lang/locallang_general.php:LGL.startingpoint</label>
+						<config>
+							<type>group</type>
+							<internal_type>db</internal_type>
+							<allowed>pages</allowed>
+							<size>3</size>
+							<maxitems>22</maxitems>
+							<minitems>0</minitems>
+							<show_thumbs>1</show_thumbs>
+						</config>
+						</TCEforms>
+					  </pages>
+					<recursive>
+						<TCEforms>
+						<label>LLL:EXT:lang/locallang_general.php:LGL.recursive</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0"></numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>					
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:cms/locallang_ttc.php:recursive.I.1</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:cms/locallang_ttc.php:recursive.I.2</numIndex>
+										<numIndex index="1">2</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:cms/locallang_ttc.php:recursive.I.3</numIndex>
+										<numIndex index="1">3</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">LLL:EXT:cms/locallang_ttc.php:recursive.I.4</numIndex>
+										<numIndex index="1">4</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">LLL:EXT:cms/locallang_ttc.php:recursive.I.5</numIndex>
+										<numIndex index="1">250</numIndex>
+									</numIndex>
+								</items>
+								<minitems>0</minitems>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					  </recursive>  
+					  <template_file>
+						<TCEforms>
+							<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.template_file</label>
+							<config>
+								<type>group</type>
+								<internal_type>file</internal_type>
+								<allowed>tmpl,html</allowed>
+								<max_size>100</max_size>
+								<uploadfolder>uploads/tx_veguestbook</uploadfolder>
+								<maxitems>1</maxitems>
+								<size>1</size>
+								<selectedListStyle>Width:180px</selectedListStyle>
+							</config>
+						</TCEforms>
+					  </template_file>
+
+						<guestbook>
+							<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.guestbook</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+							</TCEforms>
+						</guestbook>
+
+	    </el>
+	  </ROOT>
+    </sDEF>
+
+    <s_form>
+	  <ROOT>
+		<TCEforms>
+			<sheetTitle>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.sheet_form</sheetTitle>
+		</TCEforms>
+	    <type>array</type>
+	    <el>
+					<captcha>
+						<TCEforms>
+							<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.captcha</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0"></numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">captcha</numIndex>
+										<numIndex index="1">captcha</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">sr_freecap</numIndex>
+										<numIndex index="1">sr_freecap</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</captcha>	    
+					<obligation_fields>
+						<TCEforms>	<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.obligation_fields</label>
+						<config>
+							<type>select</type>
+							<items type="array">
+								<numIndex index="1" type="array">
+									<numIndex index="0">LLL:EXT:ve_guestbook/locallang_db.php:tx_veguestbook_entries.firstname</numIndex>
+									<numIndex index="1">firstname</numIndex>
+								</numIndex>	
+								<numIndex index="2" type="array">
+									<numIndex index="0">LLL:EXT:ve_guestbook/locallang_db.php:tx_veguestbook_entries.surname</numIndex>
+									<numIndex index="1">surname</numIndex>
+								</numIndex>	
+								<numIndex index="3" type="array">
+									<numIndex index="0">LLL:EXT:ve_guestbook/locallang_db.php:tx_veguestbook_entries.email</numIndex>
+									<numIndex index="1">email</numIndex>
+								</numIndex>	
+								<numIndex index="4" type="array">
+									<numIndex index="0">LLL:EXT:ve_guestbook/locallang_db.php:tx_veguestbook_entries.homepage</numIndex>
+									<numIndex index="1">homepage</numIndex>
+								</numIndex>	
+								<numIndex index="5" type="array">
+									<numIndex index="0">LLL:EXT:ve_guestbook/locallang_db.php:tx_veguestbook_entries.place</numIndex>
+									<numIndex index="1">place</numIndex>
+								</numIndex>	
+								<numIndex index="6" type="array">
+									<numIndex index="0">LLL:EXT:ve_guestbook/locallang_db.php:tx_veguestbook_entries.entry</numIndex>
+									<numIndex index="1">entry</numIndex>
+								</numIndex>	
+							</items>	
+							<maxitems>100</maxitems>
+							<size>5</size>
+							<multiple>1</multiple>
+							<selectedListStyle>width:150px</selectedListStyle>
+							<itemListStyle>width:150px</itemListStyle>
+						</config>
+						</TCEforms>
+					</obligation_fields>
+
+					<email_validation>
+						<TCEforms>
+						<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.email_validation</label>
+						<config>
+							<type>check</type>
+						</config>
+						</TCEforms>
+					</email_validation>
+
+					<website_validation>
+						<TCEforms>
+						<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.website_validation</label>
+						<config>
+							<type>check</type>
+						</config>
+						</TCEforms>
+					</website_validation>
+
+					<redirect_page>
+						<TCEforms>
+						<exclude>1</exclude>
+						<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.redirect_page</label>
+						<config>
+							<type>group</type>
+							<internal_type>db</internal_type>
+							<allowed>pages</allowed>
+							<size>1</size>
+							<maxitems>1</maxitems>
+							<minitems>0</minitems>
+							<show_thumbs>1</show_thumbs>
+						</config>
+						</TCEforms>
+					</redirect_page>
+
+					<notify_mail>
+						<TCEforms>			<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.notification_mail</label>
+
+							<config>
+								<type>input</type>
+								<size>25</size>
+							</config>
+						</TCEforms>
+					</notify_mail>
+
+					<feedback_mail>
+						<TCEforms>
+						<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.feedback_mail</label>
+						<config>
+							<type>check</type>
+						</config>
+						</TCEforms>
+					</feedback_mail>
+
+					<manual_backend_release>
+						<TCEforms>
+						<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.manual_backend_release</label>
+						<config>
+							<type>check</type>
+						</config>
+						</TCEforms>
+					</manual_backend_release>
+
+					<blacklist_mail>
+						<TCEforms><label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.blacklist_mail</label>
+							
+							<config>
+								<type>input</type>
+								<size>50</size>
+							</config>
+						</TCEforms>
+					</blacklist_mail>
+					
+					<whitelist_mail>
+						<TCEforms><label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.whitelist_mail</label>
+							
+							<config>
+								<type>input</type>
+								<size>50</size>
+							</config>
+						</TCEforms>
+					</whitelist_mail>
+	    </el>
+	  </ROOT>
+    </s_form>
+
+    <s_list>
+	  <ROOT>
+		<TCEforms>
+			<sheetTitle>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.sheet_list</sheetTitle>
+		</TCEforms>
+	    <type>array</type>
+	    <el>
+
+					<limit>
+						<TCEforms>			<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.limit</label>
+
+							<config>
+								<type>input</type>
+								<size>3</size>
+							</config>
+						</TCEforms>
+					</limit>
+
+					<listOrderBy>
+						<TCEforms>
+							<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.listOrderby</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0"></numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:ve_guestbook/locallang_db.php:tx_veguestbook_entries.crdate</numIndex>
+										<numIndex index="1">crdate</numIndex>
+									</numIndex>	
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:ve_guestbook/locallang_db.php:tx_veguestbook_entries.firstname</numIndex>
+										<numIndex index="1">firstname</numIndex>
+									</numIndex>	
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:ve_guestbook/locallang_db.php:tx_veguestbook_entries.surname</numIndex>
+										<numIndex index="1">surname</numIndex>
+									</numIndex>	
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+					</TCEforms>
+			  </listOrderBy>
+		  	   <ascDesc>
+				<TCEforms>
+					<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.ascDesc</label>
+					<config>
+						<type>select</type>
+						<items type="array">
+						<numIndex index="0" type="array">
+								<numIndex index="0"></numIndex>
+								<numIndex index="1"></numIndex>
+							</numIndex>
+							<numIndex index="1" type="array">
+								<numIndex index="0">LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.ascDesc_asc</numIndex>
+								<numIndex index="1">asc</numIndex>
+							</numIndex>
+							<numIndex index="2" type="array">
+								<numIndex index="0">LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.ascDesc_desc</numIndex>
+								<numIndex index="1">desc</numIndex>
+							</numIndex>
+						</items>
+						<maxitems>1</maxitems>
+						<size>1</size>
+					</config>
+				</TCEforms>
+	      </ascDesc>
+			<teasercut>
+				<TCEforms>			<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.teasercut</label>
+
+					<config>
+						<type>input</type>
+						<size>3</size>
+					</config>
+				</TCEforms>
+			</teasercut>
+			<wordcut>
+				<TCEforms>			<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.wordcut</label>
+					<config>
+						<type>input</type>
+						<size>3</size>
+					</config>
+				</TCEforms>
+			</wordcut>
+
+			<nolangfilter>
+				<TCEforms>
+				<label>LLL:EXT:ve_guestbook/locallang_tca.php:ve_guestbook.pi_flexform.nolangfilter</label>
+				<config>
+					<type>check</type>
+				</config>
+				</TCEforms>
+			</nolangfilter>
+
+	    </el>
+	  </ROOT>
+    </s_list>
+  </sheets>
+</T3DataStructure>
